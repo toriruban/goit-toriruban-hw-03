@@ -1,0 +1,182 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  color: #434455;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.logo-site{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:#4d5ae5;
+}
+
+.logo-second-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.main-navigation{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#2E2F42;
+}
+
+.main-navigation:hover,
+.main-navigation:focus{
+  color: #404BBF;
+}
+
+address{
+  font-style: normal;
+}
+
+.contacts-side {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.contacts-side:hover,
+.contacts-side:focus {
+  color: #404BBF;
+}
+.section-header {
+  background-color: #2e2f42;
+}
+
+.custom-header-class {
+  font-size: 56px;
+  line-height: 1.7;
+  color: #ffffff;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.custom-button-class {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.custom-button-class:hover,
+.custom-button-class:focus {
+  background-color: #404BBF;
+}
+
+
+.about-us {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.about-us-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.our-team{
+  background-color: #f4f4fd;
+}
+
+.about-member{
+  background-color: #FFFFFF;
+}
+
+.our-team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.about-us {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #FFFFFF;
+  letter-spacing: 0.02em;
+}
+
+.our-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.our-products {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.app-classification {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.footer-info{
+  background-color: #2e2f42;
+}
+
+.footer-class {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.logo-second-part-footer{
+  color: #f4f4fd ;
+}
+
+.footer-paragraph{
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
