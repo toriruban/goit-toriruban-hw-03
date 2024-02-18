@@ -24,7 +24,9 @@
 
     <!-- Header ---> 
     <header class="header-info">
-      <nav class="nav-container">
+    <div class="nav-container">
+      <div class="container">
+      <nav class="nav-header-container">
         <a href="./index.html" class="logo-site navigation-list">WEB
           <span class="logo-second-part part navigation-list ">Studio</span>
         </a>
@@ -32,19 +34,21 @@
 
         <!-- Navigation --->   
       <ul class="navigation">
-          <li class="navigation-list"><a href="./index.html" class="main-navigation">Studio</a></li>
-          <li class="navigation-list"><a href="" class="main-navigation">Portfolio</a></li>
-          <li class="navigation-list"><a href="" class="main-navigation">Contacts</a></li>
+          <li><a href="./index.html" class="main-navigation">Studio</a></li>
+          <li><a href="" class="main-navigation">Portfolio</a></li>
+          <li><a href="" class="main-navigation">Contacts</a></li>
         </ul>                      
    
      <!-- Address ---> 
       <address>
         <ul class="feedback-navigation">
-          <li class="navigation-list"><a href="mailto:info@devstudio.com" class="contacts-side">info@devstudio.com</a></li>
-          <li class="navigation-list"><a href="tel:+110001111111" class="contacts-side">+11 (000) 111-11-11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="contacts-side">info@devstudio.com</a></li>
+          <li><a href="tel:+110001111111" class="contacts-side">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
       </nav>
+      </div>
+  </div>
     </header>
     <main>
 
@@ -63,6 +67,7 @@
         <div class="container">
         <h2 class="visually-hidden">Our strong side</h2>
         <ul class="why-us">
+
           <li class="why-us-item">
             <h3 class="about-us">Strategy</h3>
             <p class="about-us-paragraph">
@@ -70,6 +75,7 @@
               perfect and creative solution.
             </p>
           </li>
+
           <li class="why-us-item">
             <h3 class="about-us">Punctuality</h3>
             <p class="about-us-paragraph">
@@ -77,6 +83,7 @@
               within the shortest possible time.
             </p>
           </li>
+
           <li class="why-us-item">
             <h3 class="about-us">Diligence</h3>
             <p class="about-us-paragraph">
@@ -84,6 +91,7 @@
               growth opportunities and minimize risk.
             </p>
           </li>
+
           <li class="why-us-item">
             <h3 class="about-us">Technologies</h3>
             <p class="about-us-paragraph">
@@ -103,27 +111,44 @@
         <ul class="team-container">
             <li class="about-member">
                 <img src="./images/MarkGuerrero.jpg" alt="Mark Guerrero" width="264" />
+                
+                <div class="name-position-member">
                 <h3 class="about-us">Mark Guerrero</h3>
                 <p class="team-position">Product Designer</p>
+               </div>
+
             </li>
     
             <li class="about-member">
                 <img src="./images/TomFord.jpg" alt="Tom Ford" width="264" />
+                
+                <div class="name-position-member">
                 <h3 class="about-us">Tom Ford</h3>
                 <p class="team-position">Frontend Developer</p>
+              
+              </div>
+
             </li>
     
             <li class="about-member">
                 <img src="./images/CamilaGarcia.jpg" alt="Camila Garcia" width="264" />
+                
+                <div class="name-position-member">
                 <h3 class="about-us">Camila Garcia</h3>
                 <p class="team-position">Marketing</p>
+                
+              </div>
             </li>
     
             <li class="about-member">
                 <img src="./images/DanielWilson.jpg" alt="Daniel Wilson" width="264" />
+                
+                <div class="name-position-member">
                 <h3 class="about-us">Daniel Wilson</h3>
                 <p class="team-position">UI Designer</p>
-            </li>
+                
+              </div>
+              </li>
         </ul>
         </div>
     </section>
@@ -133,10 +158,14 @@
         <div class="container">
         <h2 class="our-portfolio">Our Portfolio</h2>
         <ul class="portfolio-container">
+          
           <li class="about-portfolio">
             <img src="./images/app-1.jpg" alt="Banking App" width="360" class="img-portfolio" />
+            
+          <div class="product-classification">
             <h3 class="our-products">Banking App</h3>
             <p class="app-classification">App</p>
+          </div>
           </li>
 
           <li class="about-portfolio" >
@@ -146,14 +175,19 @@
               width="360"
               class="img-portfolio"
             />
+
+          <div class="product-classification">
             <h3 class="our-products">Cashless Payment</h3>
             <p class="app-classification">Marketing</p>
+          </div>
           </li>
 
           <li class="about-portfolio">
             <img src="./images/app-2.jpg" alt="Meditation App" width="360" class="img-portfolio"/>
+          <div class="product-classification">
             <h3 class="our-products">Meditation App</h3>
             <p class="app-classification">App</p>
+          </div>
           </li>
 
           <li class="about-portfolio">
@@ -163,8 +197,11 @@
               width="360"
               class="img-portfolio"
             />
+            
+          <div class="product-classification">
             <h3 class="our-products">Taxi Service</h3>
             <p class="app-classification">Marketing</p>
+          </div>
           </li>
 
           <li class="about-portfolio">
@@ -174,14 +211,18 @@
               width="360"
               class="img-portfolio"
             />
+            <div class="product-classification">
             <h3 class="our-products">Screen Illustrations</h3>
             <p class="app-classification">Design</p>
+            </div>
           </li>
 
           <li class="about-portfolio">
             <img src="./images/courses.jpg" alt="Online Courses" width="360"  class="img-portfolio"/>
+            <div class="product-classification"> 
             <h3 class="our-products">Online Courses</h3>
             <p class="app-classification">Marketing</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -192,7 +233,7 @@
     <!-- Footer ---> 
     <footer class="footer-info-container">
       <div class="container">
-      <a href="./index.html" class="logo-site">WEB
+      <a href="./index.html" class="logo-site footer-link">WEB
         <span class="logo-second-part-footer">Studio</span>
       </a>
       

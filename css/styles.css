@@ -56,35 +56,41 @@ a {
 
 
 /* Header */
-.header-info .container{
-  width: 1488px; 
-  display: flex;
+.header-info{
   border-bottom: 1px solid #E7E9FC;
- 
 }
 
 .nav-container{
   display: flex;
-  max-width: 1158px;
-  margin: 0 auto;
 }
 
-.navigation{
-  display:flex;
-  gap: 40px; 
+.container{
+ width: 1158px;
+ margin: 0 auto;
+ padding: 0 15px;
+}
+
+.nav-header-container{
+  display: flex;
+  align-items: center;
 }
 
 .navigation-list{
-  padding: 24px 0;
-}
-
-.part{
   margin-right: 76px;
 }
 
+.navigation{
+  display: flex;
+  gap: 40px;
+}
+
+.main-navigation{
+  display: flex;
+  padding: 24px 0;
+}
+
 .feedback-navigation{
-  display:flex;
-  margin-left: 332px;
+  display: flex;
   gap: 40px;
 }
 
@@ -161,7 +167,7 @@ address{
   text-align: center;
   letter-spacing: 0.02em;
   padding-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
 }
 
 .custom-button-class {
@@ -173,6 +179,11 @@ address{
   font-weight: 500;
   letter-spacing: 0.04em;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+
 }
 
 .custom-button-class:hover,
@@ -183,13 +194,9 @@ address{
 
 /* Section 2 */
 
-/* 
-.us-container{
-  margin: 0 auto;
-  padding: 0 15px;
+.information-us{
+  padding: 120px 0;
 }
-*/
-
 
 .visually-hidden {
   position: absolute;
@@ -203,15 +210,11 @@ address{
 
 .why-us {
   display: flex;
-  
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0 15px;
+  gap: 24px;
 }
 
-.why-us-item {
-  width: 264px;;
-  margin-right: 24px;
+.why-us-item{
+  width: calc((100% - 72px) / 4);
 }
 
 .about-us {
@@ -220,7 +223,7 @@ address{
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding-top: 32px
+  padding-top: 32px;
 }
 
 .about-us-paragraph {
@@ -234,6 +237,7 @@ address{
 /* Section 3 */
 .our-team{
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .about-member{
@@ -242,7 +246,22 @@ address{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 0px 0px 4px 4px;
 
+}
+
+.name-position-member{
+  padding: 32px 0;
+}
+
+.about-us {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .our-team-title {
@@ -268,27 +287,23 @@ address{
   width: calc((100% - 72px) / 4);
 }
 
-.about-us {
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
 .team-position {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
   background-color: #FFFFFF;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-
+  text-align: center;
 }
 
 
+
 /* Section 4  */
+.work-portfolio{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 
 .our-portfolio {
   font-size: 36px;
@@ -297,37 +312,33 @@ address{
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
  
 .portfolio-container{
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  padding-bottom: 120px;
-
+  column-gap: 24px;
+  row-gap: 48px;
 }
-
 
 .about-portfolio{
-  border-right: 1px solid #E7E9FC ;
-  border-bottom: 1px solid  #E7E9FC;
-  border-left: 1px solid #E7E9FC;
+  width: calc((100% - 48px) / 3);
 }
 
-.portfolio-container li {
-  width: calc((100% - 48px) / 3);
- 
+.product-classification{
+  padding: 32px 16px;
+  border: 1px solid #E7E9FC;
+  border-top: none;
+  margin-bottom: 8px;
 }
+
 .our-products {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 32px 16px;
-  padding-bottom: 8px;
 }
 
 .app-classification {
@@ -335,8 +346,6 @@ address{
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
-   padding-left: 16px;
-   padding-bottom: 32px;
    
 }
 
@@ -344,8 +353,10 @@ address{
 
 .footer-info-container{
   background-color: #2e2f42;
+ 
   padding-top: 100px ;
   padding-bottom: 100px ;
+  
 }
 
 .footer-class {
@@ -368,4 +379,9 @@ address{
 .footer-item{
   padding-top: 17px;
   width: 264px;
+}
+
+.footer-link{
+  display: inline-block;
+  margin-bottom: 16px;
 }
