@@ -23,6 +23,18 @@ ul {
     padding-left: 0;
   }
  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
   /* NOW images are block elements */
 
   img {
@@ -34,9 +46,10 @@ ul {
 
 /* container */
 .container { 
-  max-width: 1158px;
-  margin: 0 auto;
+  width: 1158px;
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
   }
   
 
@@ -56,26 +69,31 @@ a {
 
 
 /* Header */
-.header-info{
-  border-bottom: 1px solid #E7E9FC;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container{
-  display: flex;
-}
-
-.nav-container{
+.page-nav{
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .navigation-menu{
- display: flex;
- gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
-.navigation-item{
+.link{
+  display: block;
   padding: 24px 0;
+  
+}
+
+.feedback{
+  display: flex;
 }
 
 .logo-site{
@@ -86,7 +104,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:#4d5ae5;
-  }
+  margin-right: 76px;
+}
 
 
 .logo-second-part {
@@ -100,7 +119,7 @@ a {
   margin-right: 76px;
 }
 
-.link-navigation{
+.navigation-item{
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -108,8 +127,8 @@ a {
   color:#2E2F42;
 }
 
-.link-navigation:hover,
-.link-navigation:focus{
+.navigation-item:hover,
+.navigation-item:focus{
   color: #404BBF;
 }
 
@@ -117,17 +136,15 @@ address{
   font-style: normal;
 }
 
-.contacts-side {
+.link {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
 }
 
-
-
-.contacts-side:hover,
-.contacts-side:focus {
+.link:hover,
+.link:focus {
   color: #404BBF;
 }
 
@@ -185,15 +202,6 @@ address{
   padding: 120px 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
 .why-us {
   display: flex;
@@ -261,7 +269,6 @@ address{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-top: 120px;
-  padding-bottom: 72px;
 }
 
 .team-container{
@@ -319,7 +326,6 @@ address{
   padding: 32px 16px;
   border: 1px solid #E7E9FC;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .our-products {
