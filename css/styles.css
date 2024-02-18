@@ -60,38 +60,22 @@ a {
   border-bottom: 1px solid #E7E9FC;
 }
 
-.nav-container{
+.header-container{
   display: flex;
 }
 
-.container{
- width: 1158px;
- margin: 0 auto;
- padding: 0 15px;
-}
-
-.nav-header-container{
+.nav-container{
   display: flex;
   align-items: center;
 }
 
-.navigation-list{
-  margin-right: 76px;
+.navigation-menu{
+ display: flex;
+ gap: 40px;
 }
 
-.navigation{
-  display: flex;
-  gap: 40px;
-}
-
-.main-navigation{
-  display: flex;
+.navigation-item{
   padding: 24px 0;
-}
-
-.feedback-navigation{
-  display: flex;
-  gap: 40px;
 }
 
 .logo-site{
@@ -102,7 +86,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:#4d5ae5;
-}
+  }
+
 
 .logo-second-part {
   font-family: "Raleway", sans-serif;
@@ -112,9 +97,10 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 
-.main-navigation{
+.link-navigation{
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -122,8 +108,8 @@ a {
   color:#2E2F42;
 }
 
-.main-navigation:hover,
-.main-navigation:focus{
+.link-navigation:hover,
+.link-navigation:focus{
   color: #404BBF;
 }
 
@@ -138,11 +124,12 @@ address{
   letter-spacing: 0.02em;
 }
 
+
+
 .contacts-side:hover,
 .contacts-side:focus {
   color: #404BBF;
 }
-
 
 /* Section 1 */
 
@@ -233,6 +220,8 @@ address{
   letter-spacing: 0.02em;
   padding-bottom: 120px;
 }
+
+
 
 /* Section 3 */
 .our-team{
