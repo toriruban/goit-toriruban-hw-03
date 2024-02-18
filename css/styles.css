@@ -90,10 +90,17 @@ a {
   gap: 40px;
 }
 
-.feedback-nav {
+.feedback-navigation{
   display: flex;
-  gap: 40px;
-}
+ }
+ 
+ .feedback-nav{
+ display: flex;
+   align-items: center;
+   gap: 40px;
+ }
+ 
+ 
 
 .feedback-navigation {
   display: flex;
@@ -275,7 +282,6 @@ address{
   font-weight: 500;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .our-team-title {
