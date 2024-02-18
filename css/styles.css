@@ -69,110 +69,82 @@ a {
 
 
 /* Header */
-.header-container {
+.header {
+  display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
+.header .logo,
+.header .link {
+  display: block;
+  padding: 24px 0;
 }
 
-
-.page-nav{
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 76px;
+}
+.logo-black {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.page-nav {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.navigation-menu{
+.page-nav-menu {
   display: flex;
   gap: 40px;
 }
 
-.feedback-navigation {
-  display: flex;
-  margin-left: auto;
-}
-
-.feedback-nav {
-  display: flex;
-  gap: 40px;
-}
-
-.navigation-item {
-  display: flex;
-  gap: 40px;
-  margin-right: 40px;
-}
-
-.navigation-item:last-child {
-  margin-right: 0;
-}
-
-.navigation-item {
-  margin-right: 40px;
-}
-
-.navigation-item:last-child {
-  margin-right: 0;
-}
-
-.link{
-  display: block;
-  padding: 24px 0;
-}
-
-.logo-site{
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color:#4d5ae5;
-  margin-right: 76px;
-}
-
-
-.logo-second-part {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.page-nav .link {
   color: #2e2f42;
-  margin-right: 76px;
-}
-
-.navigation-item{
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:#2E2F42;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
-.navigation-item:hover,
-.navigation-item:focus{
-  color: #404BBF;
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
 }
 
-address{
+.contacts {
   font-style: normal;
+  text-decoration: none;
+  display: flex;
 }
 
-.link {
-  font-size: 16px;
-  line-height: 1.5;
+.contacts .link {
   color: #434455;
-  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
-.link:hover,
+.contacts .link:hover,
 .link:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 /* Section 1 */
@@ -285,6 +257,7 @@ address{
   font-weight: 500;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .our-team-title {
