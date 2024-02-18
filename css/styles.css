@@ -75,6 +75,7 @@ a {
     border-bottom: 1px solid #e7e9fc;
 }
 
+
 .page-nav{
   display: flex;
   align-items: center;
@@ -86,14 +87,15 @@ a {
   gap: 40px;
 }
 
+.feedback-nav{
+  display: flex;
+  gap: 40px;
+}
+
 .link{
   display: block;
   padding: 24px 0;
   
-}
-
-.feedback{
-  display: flex;
 }
 
 .logo-site{
@@ -269,6 +271,7 @@ address{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-container{
@@ -334,6 +337,7 @@ address{
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
+  margin-bottom: 8px
 }
 
 .app-classification {
