@@ -90,21 +90,24 @@ a {
   gap: 40px;
 }
 
-.feedback-navigation{
-  display: flex;
- }
- 
- .feedback-nav{
- display: flex;
-   align-items: center;
-   gap: 40px;
- }
- 
- 
-
 .feedback-navigation {
   display: flex;
-  align-items: center;
+  margin-left: auto;
+}
+
+.feedback-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-item {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+.navigation-item:last-child {
+  margin-right: 0;
 }
 
 .navigation-item {
