@@ -69,10 +69,13 @@ a {
 
 
 /* Header */
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -87,15 +90,27 @@ a {
   gap: 40px;
 }
 
-.feedback-nav{
+.feedback-nav {
   display: flex;
   gap: 40px;
+}
+
+.feedback-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-item {
+  margin-right: 40px;
+}
+
+.navigation-item:last-child {
+  margin-right: 0;
 }
 
 .link{
   display: block;
   padding: 24px 0;
-  
 }
 
 .logo-site{
