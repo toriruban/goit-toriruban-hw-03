@@ -218,6 +218,7 @@ a {
   font-weight: 500;
   letter-spacing: 0.02em;
   padding-top: 32px;
+  margin-bottom: 8px
 }
 
 .about-us-paragraph {
@@ -257,8 +258,8 @@ a {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
-
   text-align: center;
+  margin-bottom: 8px
   
 }
 
